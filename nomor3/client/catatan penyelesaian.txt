@@ -1,0 +1,24 @@
+-GETone/:id 
+GET http://localhost/timglobal/nomor3/server/resto.php?id=1
+
+-Getall
+GET http://localhost/timglobal/nomor3/server/resto.php
+
+-Create
+POST http://localhost/timglobal/nomor3/server/resto.php
+	name:matot jemur
+	image_url:https://c.mql5.com/i/mql5-logo_2x.png
+	address:jemur
+	
+-Delete/:id
+DELETE http://localhost/timglobal/nomor3/server/resto.php?id=1
+
+-Update/:id
+POST http://localhost/timglobal/nomor3/server/resto.php?id=12
+	name:pintar
+	image_url:sasas
+	address:fsf
+
+-Login auth
+POST http://localhost/timglobal/nomor3/server/user.php?name=sabil2
+	pass:gogo
